@@ -1,0 +1,52 @@
+
+/*
+copyright Evert 2026
+This is the style CSS for this site
+*/
+
+.header {
+    font-family: 'Gothic Textura', serif;
+    font-size: 25pt;
+	background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* this is the style for the block that uses the imported OpenDyslexic font  */
+.ODcontent {
+    font-family: 'Open Dyslexic', sans-serif;
+    font-size: 15pt;
+    vertical-align: top;
+	background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    font-size: 15pt;
+    vertical-align: top;
+	background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.large_image {
+    max-width: 75%;
+    height: auto;
+}
+
+.small_image {
+    max-width: 25%;
+    height: auto;
+}
+
+.tall_image {
+    width: 100pt;
+    height: 250pt;
+}

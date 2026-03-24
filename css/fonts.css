@@ -1,0 +1,14 @@
+/*
+These are the fonts used by the site 
+stored in /fonts/*
+*/
+
+@font-face {
+    font-family: 'Gothic Textura';
+    src: url('../fonts/Manuskript_Gothisch.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Dyslexic';
+    src: url('../fonts/OpenDyslexic-Regular.otf') format('opentype');
+}

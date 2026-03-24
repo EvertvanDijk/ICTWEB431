@@ -1,0 +1,44 @@
+/*
+copyright Evert 2026
+This is the layout for this site
+using Flexbox and Grid
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  vertical-align: text-top;
+  gap: 1rem
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 1rem   
+}
+
+/* this is the layout for the block that uses the imported OpenDyslexic font  */
+.ODcontent {
+  display: flex;
+  align-items: center;
+  gap: 1rem   
+}
+
+.header, .content, .footer {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
