@@ -26,14 +26,14 @@ a {
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem   
 }
 
 /* this is the layout for the block that uses the imported OpenDyslexic font  */
 .ODcontent {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem   
 }
 
